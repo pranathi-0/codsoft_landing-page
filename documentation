@@ -1,0 +1,97 @@
+Below is the documentation for the provided HTML and CSS code:
+
+## HTML Code Documentation:
+
+### `<!DOCTYPE html>`:
+- This declaration specifies that the document is an HTML5 document.
+
+### `<html lang="en">`:
+- The opening tag for the HTML document with the language attribute set to "en" (English).
+
+### `<head>`:
+- Contains meta-information about the HTML document like character encoding, viewport settings, and the document title.
+
+### `<meta charset="UTF-8">`:
+- Specifies the character encoding for the document, set to UTF-8 (Unicode Transformation Format - 8 bits).
+
+### `<meta name="viewport" content="width=device-width, initial-scale=1.0">`:
+- Sets the viewport properties, ensuring that the content width adjusts to the device's width and initial-scale is set to 1.
+
+### `<title>landing page</title>`:
+- Sets the title of the HTML document, which appears in the browser tab.
+
+### `<link rel="stylesheet" type="text/css" href="sty.css"/>`:
+- Links an external CSS file named "sty.css" to the HTML document to apply styles.
+
+### `<body>`:
+- Contains the visible content of the HTML document.
+
+### `<header>`:
+- Represents the header section of the web page, usually containing navigation and other introductory elements.
+
+### `<div class="main">`:
+- A container div for the main content of the header.
+
+### `<ul>`:
+- An unordered list that holds the navigation links.
+
+### `<li>`:
+- Represents each item (link) in the unordered list.
+
+### `<a href="#">`:
+- The anchor tag that defines a hyperlink, with "#" as a placeholder for the link destination.
+
+### `<div class="logo">`:
+- A container div for the logo image.
+
+### `<img src="ig2.png">`:
+- The image tag that displays the logo with the source set to "ig2.png".
+
+### `<div class="center_text">`:
+- A container div for the centered text and buttons.
+
+### `<h1>`:
+- The heading tag used to define the main heading of the page.
+
+### `<a href="#" id="bt1">Contact</a>` and `<a href="#" id="bt2">Read more.</a>`:
+- Anchor tags representing hyperlinks with the text "Contact" and "Read more." The IDs are used to apply specific styles using CSS.
+
+## CSS Code Documentation:
+
+### `*{}`:
+- Applies the following styles to all elements in the HTML document.
+
+### `header{}`:
+- Styles the header section, which includes the background image and height.
+
+### `.main{}`:
+- Styles the container for the main content of the header.
+
+### `ul{}`:
+- Styles the unordered list, removing the default list style.
+
+### `ul li{}`:
+- Styles each list item (link) in the unordered list, displaying them inline.
+
+### `ul li a{}`:
+- Styles the anchor tags within the list items, setting their color, display, and padding.
+
+### `.active{}`:
+- Styles the active (current) link in the navigation, changing its background color.
+
+### `.logo img{}`:
+- Styles the logo image, setting its height, width, and margins.
+
+### `.center_text{}`:
+- Styles the container for centered text and buttons, setting the margin and position.
+
+### `h1{}`:
+- Styles the main heading, setting its color and font size.
+
+### `#bt1{}` and `#bt2{}`:
+- Styles the contact and "Read more" buttons, setting their border, padding, text color, and font size.
+
+### `#bt1:hover{}` and `#bt2:hover{}`:
+- Styles the buttons when hovered over, changing their background color and text color with a smooth transition effect.
+
+Overall, this HTML and CSS code create a simple landing page with a header containing a navigation bar, a logo, a centered heading, and two buttons. The page uses external CSS styles to customize the appearance and layout of the elements.
